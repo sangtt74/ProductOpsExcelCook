@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.venv/ # For venv folders with different names like 'venv_app'
+*.egg-info/
+.pytest_cache/
+.coverage
+
+# Streamlit
+.streamlit/local_config.toml
+
+# PyInstaller / build artifacts
+build/
+dist/
+*.spec
+
+# Output files (if you don't want to track them)
+processed_files_output/
+*.zip
