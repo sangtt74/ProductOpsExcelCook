@@ -1,104 +1,103 @@
-altair==5.3.0 # Phiên bản mới nhất
-asttokens==2.0.0 # Để đảm bảo tương thích nếu code của bạn dùng đến
-bokeh==3.4.1 # Nếu bạn dùng bokeh để vẽ biểu đồ
-cachetools==5.3.3 # Phụ thuộc phổ biến
-certifi==2024.7.4 # Chứng chỉ SSL
-charset-normalizer==3.3.2 # Phụ thuộc của requests
-click==8.1.7 # Phụ thuộc của Streamlit
-colorama==0.4.6 # Phụ thuộc của Streamlit
-comm==0.2.2 # Có thể là phụ thuộc của ipykernel/jupyter, nhưng giữ lại nếu cần
-contourpy==1.2.1 # Phụ thuộc của matplotlib
-cryptography==42.0.8 # Có thể là phụ thuộc của một số gói mạng/bảo mật
-cycler==0.12.1 # Phụ thuộc của matplotlib
-dask==2024.7.1 # Nếu bạn dùng dask cho tính toán song song
-decorator==5.1.1 # Phụ thuộc chung
-et-xmlfile==1.1.0 # Phụ thuộc của openpyxl
-filelock==3.15.4 # Được Streamlit dùng
-fonttools==4.53.1 # Phụ thuộc của matplotlib
-frozendict==2.4.2 # Phụ thuộc
-fsspec==2024.6.1 # Nếu bạn làm việc với hệ thống file
-h11==0.14.0 # Phụ thuộc của httpcore/httpx
-h5py==3.11.0 # Nếu bạn làm việc với file HDF5 (ví dụ: mô hình AI)
-httpcore==1.0.5 # Phụ thuộc của httpx
-httpx==0.27.0 # Nếu bạn làm việc với HTTP requests
-idna==3.7 # Phụ thuộc của requests
-imageio==2.34.1 # Nếu bạn xử lý ảnh
-imbalanced-learn==0.12.2 # Nếu bạn dùng cho Machine Learning
-importlib-metadata==8.0.0 # Quản lý metadata gói
-Jinja2==3.1.4 # Phụ thuộc của Flask
-jmespath==1.0.1 # Phụ thuộc của botocore
-joblib==1.4.2 # Thường dùng với scikit-learn
-kiwisolver==1.4.5 # Phụ thuộc của matplotlib
-lazy-object-proxy==1.10.0 # Phụ thuộc
-lazy_loader==0.4 # Phụ thuộc
-llvmlite==0.42.0 # Nếu bạn dùng Numba
-lxml==5.2.1 # Nếu bạn xử lý XML/HTML phức tạp (thường dùng trong web scraping)
-lz4==4.3.2 # Nếu bạn dùng nén LZ4
-Mako==1.3.2 # Nếu bạn dùng các công cụ tạo template
-Markdown==3.6 # Phụ thuộc của Streamlit
-markdown-it-py==3.0.0 # Phụ thuộc của rich
-MarkupSafe==2.1.5 # Phụ thuộc của Jinja2
-matplotlib==3.9.2 # Nếu bạn vẽ biểu đồ
-mdurl==0.1.2 # Phụ thuộc của markdown-it-py
-more-itertools==10.3.0 # Phụ thuộc
-msgpack==1.0.8 # Phụ thuộc
-multidict==6.0.5 # Phụ thuộc của aiohttp
-multipledispatch==1.0.0 # Phụ thuộc
-networkx==3.3 # Nếu bạn dùng đồ thị
-nltk==3.9.1 # Nếu bạn làm việc với xử lý ngôn ngữ tự nhiên
-numba==0.60.0 # Nếu bạn cần tối ưu hiệu suất Python
-numpy==1.26.4 # Thư viện tính toán số học
-openpyxl==3.1.2 # Rất quan trọng, để đọc/ghi Excel
-packaging==24.1 # Quản lý phiên bản gói
-pandas==2.2.2 # Rất quan trọng, để xử lý dữ liệu bảng
-param==2.0.1 # Phụ thuộc của holoviews/panel
-parsel==1.9.1 # Nếu bạn dùng web scraping (scrapy)
-pathspec==0.12.1 # Phụ thuộc của black/flake8
-pillow==10.4.0 # Xử lý ảnh (thường là phụ thuộc của scikit-image)
-plotly==5.22.0 # Nếu bạn dùng plotly để vẽ biểu đồ tương tác
-prompt-toolkit==3.0.47 # Phụ thuộc của Streamlit
-protobuf==4.25.3 # Phụ thuộc của Streamlit
-psutil==5.9.8 # Lấy thông tin hệ thống
-pyarrow==16.1.0 # Nếu bạn làm việc với Parquet/Feather (hiệu suất cao)
-pycparser==2.22 # Phụ thuộc của cffi
-pydantic==2.8.2 # Phụ thuộc của Streamlit
-pydantic-settings==2.3.4 # Nếu bạn dùng cài đặt Pydantic
-pydantic_core==2.20.1 # Phụ thuộc của pydantic
-pyerfa==2.0.0 # Phụ thuộc của astropy
-Pygments==2.19.2 # Highlight code
-PyJWT==2.8.0 # Nếu bạn xử lý JWT tokens
-pyparsing==3.1.2 # Phụ thuộc
-python-dateutil==2.9.0.post0 # Xử lý ngày giờ
-pytz==2024.1 # Xử lý múi giờ
-PyYAML==6.0.1 # Nếu bạn đọc/ghi file YAML
-requests==2.32.3 # Để gửi HTTP requests
-rich==14.0.0 # Tăng cường logging và hiển thị console
-scikit-image==0.23.0 # Nếu bạn xử lý ảnh nâng cao
-scikit-learn==1.5.1 # Nếu bạn dùng Machine Learning
-scipy==1.13.1 # Phụ thuộc của scikit-learn
-seaborn==0.13.2 # Nếu bạn vẽ biểu đồ thống kê
-sentry-sdk==2.10.0 # Nếu bạn dùng Sentry cho theo dõi lỗi
-six==1.16.0 # Phụ thuộc tương thích Python 2/3
-smart-open==7.0.4 # Nếu bạn đọc/ghi file từ S3/GCS
-sniffio==1.3.1 # Phụ thuộc của httpx
-soupsieve==2.5 # Phụ thuộc của beautifulsoup4
-SQLAlchemy==2.0.30 # Nếu bạn làm việc với cơ sở dữ liệu
-streamlit==1.36.0 # THƯ VIỆN CHÍNH CỦA BẠN
-sympy==1.13.0 # Nếu bạn làm việc với toán học biểu tượng
-tables==3.9.2 # Nếu bạn làm việc với PyTables/HDF5
-tenacity==8.4.1 # Xử lý retry logic
-threadpoolctl==3.5.0 # Phụ thuộc của scikit-learn
-tifffile==2024.5.22 # Nếu bạn xử lý file TIFF
-toml==0.10.2 # Nếu bạn đọc/ghi file TOML
-tomli==2.0.1 # Đọc file TOML
-toolz==0.12.1 # Phụ thuộc chung
-tornado==6.4.1 # Web server cho Streamlit
-tqdm==4.66.4 # Hiển thị tiến trình
-traitlets==5.14.3 # Phụ thuộc của ipython
-truststore==0.9.1 # Phụ thuộc của requests
-typing_extensions==4.12.2 # Hỗ trợ type hints
-tzdata==2024.1 # Dữ liệu múi giờ
-unicodedata2==15.1.0 # Nếu bạn xử lý Unicode
-urllib3==2.2.1 # Phụ thuộc của requests
-wcwidth==0.2.13 # Phụ thuộc của prompt-toolkit
-Werkzeug==3.0.3 # Phụ thuộc của Flask
+altair==5.3.0
+asttokens==2.0.0
+bokeh==3.4.1
+cachetools==5.3.3
+certifi==2024.7.4
+charset-normalizer==3.3.2
+click==8.1.7
+colorama==0.4.6
+comm==0.2.2
+contourpy==1.2.1
+cryptography==42.0.8
+cycler==0.12.1
+dask==2024.7.1
+decorator==5.1.1
+et-xmlfile==1.1.0
+filelock==3.15.4
+fonttools==4.53.1
+frozendict==2.4.2
+fsspec==2024.6.1
+h11==0.14.0
+h5py==3.11.0
+httpcore==1.0.5
+httpx==0.27.0
+idna==3.7
+imageio==2.34.1
+imbalanced-learn==0.12.2
+importlib-metadata==8.0.0
+Jinja2==3.1.4
+jmespath==1.0.1
+joblib==1.4.2
+kiwisolver==1.4.5
+lazy-object-proxy==1.10.0
+lazy_loader==0.4
+llvmlite==0.43.0 # Nâng cấp llvmlite để tương thích với numba 0.60.0
+lz4==4.3.2
+Mako==1.3.2
+Markdown==3.6
+markdown-it-py==3.0.0
+MarkupSafe==2.1.5
+matplotlib==3.9.2
+mdurl==0.1.2
+more-itertools==10.3.0
+msgpack==1.0.8
+multidict==6.0.5
+multipledispatch==1.0.0
+networkx==3.3
+nltk==3.9.1
+numba==0.60.0 # Giữ nguyên version này, hy vọng llvmlite mới sẽ khớp
+numpy==1.26.4
+openpyxl==3.1.2
+packaging==24.1
+pandas==2.2.2
+param==2.0.1
+parsel==1.9.1
+pathspec==0.12.1
+pillow==10.4.0
+plotly==5.22.0
+prompt-toolkit==3.0.47
+protobuf==4.25.3
+psutil==5.9.8
+pyarrow==16.1.0
+pycparser==2.22
+pydantic==2.8.2
+pydantic-settings==2.3.4
+pydantic_core==2.20.1
+pyerfa==2.0.0
+Pygments==2.19.2
+PyJWT==2.8.0
+pyparsing==3.1.2
+python-dateutil==2.9.0.post0
+pytz==2024.1
+PyYAML==6.0.1
+requests==2.32.3
+rich==14.0.0
+scikit-image==0.23.0
+scikit-learn==1.5.1
+scipy==1.13.1
+seaborn==0.13.2
+sentry-sdk==2.10.0
+six==1.16.0
+smart-open==7.0.4
+sniffio==1.3.1
+soupsieve==2.5
+SQLAlchemy==2.0.30
+streamlit==1.36.0
+sympy==1.13.0
+tables==3.9.2
+tenacity==8.4.1
+threadpoolctl==3.5.0
+tifffile==2024.5.22
+toml==0.10.2
+tomli==2.0.1
+toolz==0.12.1
+tornado==6.4.1
+tqdm==4.66.4
+traitlets==5.14.3
+truststore==0.9.1
+typing_extensions==4.12.2
+tzdata==2024.1
+unicodedata2==15.1.0
+urllib3==2.2.1
+wcwidth==0.2.13
+Werkzeug==3.0.3
